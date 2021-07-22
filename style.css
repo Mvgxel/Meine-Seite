@@ -30,17 +30,38 @@ h2{
    text-align:center;
 }
 .welcome{
-   background-image: url("https://www.sportaktiv.com/sites/default/files/styles/gallery_desktop/public/2018-07/berge_andrijter.jpg?h=b4fe4646&itok=PARxOTpS");
+   background-image: url("https://www.wallpaperuse.com/wallp/3-37893_m.jpg");
     background-position: center;
     background-size: cover;
-    padding: 150px;
+    padding: 200px;
     color: #fff;
     font-size: 26px;
 }
 .basic-section{
   padding:40px 50px;
+  font-weight: 500;
 }
-.basic-section:nth-child(1){
-   background-color: rgb(58, 231, 58);
+.basic-section:nth-child(4){
+   background-color:#3c3d3d;
 color:#fff;
 }
+.form input{
+   padding: 10px;
+   border-radius: 20px;
+   border: 1px solid #00ff7b;
+   margin: 0 2px 0;
+}
+.btn{
+   background-color: #00ff7b;
+   color: #fff;
+   font-weight: 700;
+}
+.text-special {
+   color:blue;
+}
+.kursiv-words{
+   color:rgb(48, 48, 158);
+}
+.links{
+   background-color:#3c3d3d); 
+  } 
