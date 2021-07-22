@@ -4,6 +4,9 @@
 body{
    margin:0;
 }
+#bilder{
+   text-align: center;
+}
 h2{
    margin:0;
 }
@@ -41,7 +44,7 @@ h2{
   padding:40px 50px;
   font-weight: 500;
 }
-.basic-section{
+.basic-section:nth-child(1){
    background-color:#3c3d3d;
 color:#fff;
 }
@@ -53,15 +56,44 @@ color:#fff;
 }
 .btn{
    background-color: #00ff7b;
-   color: #fff;
+   color: rgb(255, 0, 0);
    font-weight: 700;
 }
 .text-special {
    color:blue;
 }
-.kursiv-words{
-   color:rgb(48, 48, 158);
-}
 .links{
-   background-color:#3c3d3d); 
-  } 
+   background-color: aquamarine;
+}
+.kursiv-words{
+   color:rgb(255, 0, 0);
+} 
+.pic{
+   margin:auto;
+}
+.footer{
+   background-color:#393939;
+   padding: 40px 100px;
+   color: #fff;
+}
+.footer h3{
+   letter-spacing:5px;
+   font-weight:300;
+}
+.footer-links{
+   margin:0;
+   padding:0;
+   list-style-type: none;
+}
+.footer-links li{
+ padding : 5px 0;
+}
+.footer-links a {
+   color:rgb(255, 255, 255);
+   text-decoration: none;
+   font-weight: 300;
+   letter-spacing:5px;
+}
+.die-links{
+   color:bisque;
+}
