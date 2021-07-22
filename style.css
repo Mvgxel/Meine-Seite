@@ -1,19 +1,46 @@
-#text{
-   color:#ae00ff;
-   font-weight:800;
-}
-#test2 {
-   color:darkblue;
-   border:2px solid #345678;
-}
-p{
-   font-size:19px;
-}
-h1 {
-   color:crimson;
-   font-size:50px;
+*{
+   font-family:"Roboto", sans-serif;
    }
-h2 {
-   color:darkmagenta;
-   font-size:30px;
+body{
+   margin:0;
+}
+h2{
+   margin:0;
+}
+.navbar{
+      background-color:rgb(46, 46, 46);
+      height: 50px;
+}
+.navlist{
+   float: left;
+}
+.navlist li{
+   display: inline-block;
+   }
+.navlist li a{
+   color:cornsilk;
+   margin: 0 8px;
+   text-decoration: none;
+}
+.navlist li a:hover {
+   color:blue
+ 
+}
+.text-center{
+   text-align:center;
+}
+.welcome{
+   background-image: url("https://www.sportaktiv.com/sites/default/files/styles/gallery_desktop/public/2018-07/berge_andrijter.jpg?h=b4fe4646&itok=PARxOTpS");
+    background-position: center;
+    background-size: cover;
+    padding: 150px;
+    color: #fff;
+    font-size: 26px;
+}
+.basic-section{
+  padding:40px 50px;
+}
+.basic-section:nth-child(1){
+   background-color: rgb(58, 231, 58);
+color:#fff;
 }
