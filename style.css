@@ -41,7 +41,7 @@ h2{
   padding:40px 50px;
   font-weight: 500;
 }
-.basic-section:nth-child(4){
+.basic-section{
    background-color:#3c3d3d;
 color:#fff;
 }
