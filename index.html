@@ -5,125 +5,25 @@
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Programmieren üben</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
     
-<style>
-        body {
-            font-family: 'Open Sans', sans-serif;
-            background-color: #F3F5F6;
-            padding-left: 100px;
-            padding-right: 100px;
-}
-        
-        .header-image {
-            width: 100%;
-            height: 500px;
-            object-fit: cover;
-            object-position: 50% 15%;
-            display: block;
-}
-        
-        .headline {
-            color: #831D17;
-            flex: 1;
- }
-        
-        .image-container {
-            background-color: white;
-            padding: 16px;
-}
-        
-        .navbar {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-}
-        a {
-            color:#831D17;
-            text-decoration: none;
-            margin-left: 16px;
-            font-weight:bold ;
-}
-        a:hover{
-            text-decoration: underline;
-}
-        .text-highlight {
-            color: #484846;
-            font-size: 48px;
-}
-        .text-container {
-            background-color: #dedede;
-            padding: 8px;
-            margin-left: 500px;
-            color: #255255;;
-            font-weight: 6000;
-            width: auto;
-            height: 500px;
-            font-size: 25px;
-            
-            margin-top: 62px;
-}
-        .headliner-info{
-            margin-left:0px;
-            margin-top: -600px;
-            background-color: yellowgreen;
-            height: 62px;
-            padding: -5%;
-}
-       .program-picture{
-            height: 500px;
-            width: 500px;
-}
-        .Head-berufe{
-            background-color: yellow;
-            margin-top: auto;
-            
-}
-        .bodyfooter-img{
-            width: 510px;
-            height: 550px;
-        margin-left: 250px;        
-}
-        .Berufe-2{
-            width: 500px;
-            margin-top: -500px;
 
+    <button onclick="myFunction()">On/Off</button>
+
+
+
+<script>
+    function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
 }
-        .Tipps-text {
-            background-color: violet;
-            width: 1100px;
-            margin-top: 100px;
-}
-.footer{
-   background-color:#393939;
-   padding: 40px 100px;
-   color: #fff;
-}
-.footer h3{
-   letter-spacing:5px;
-   font-weight:300;
-}
-.footer-links{
-   margin:0;
-   padding:0;
-   list-style-type: none;
-}
-.footer-links li{
- padding : 5px 0;
-}
-.footer-links a {
-   color:rgb(255, 255, 255);
-   text-decoration: none;
-   font-weight: 300;
-   letter-spacing:5px;
-}
-.die-links{
-   color:bisque;
-}
-</style>
+</script>
+
+
 </head>
 
 
@@ -145,25 +45,31 @@
 
     
     
-        <div class="imagine-container">
+        <div class="imagine-container" >
         <img class="header-image" src="code.jpg">
-    
-    
-     <div class="text-container maps-right">
-        Programmierung bezeichnet die Tätigkeit, Computerprogramme zu erstellen.<br><br> Dies ist ein Teilbereich der Softwareentwicklung.<br><br> Computerprogramme werden mit Hilfe einer Programmiersprache formuliert. <br><br> Der Programmierer ‚übersetzt‘ dabei die vorgegebenen Anforderungen und Algorithmen in eine gewünschte Programmiersprache.<br><br> 
-    </div>
+        </div>
         
-                <div href class="background-info"></div>
-        
-                 <div class="headliner-info"id="eins">
-        
-             </h1><center><h1>infos</h1></center>
-    
-                 </div>
-                                                     <div class="imagine-container2">
-                                                    <img class="program-picture" src="Program.jpg" >    
-                                                    </div>
+      
+        <div class="headliner-info" id="eins">
+             </h1> <center><h1>Info</h1></center>
+             </div>
+             <div class="text-container" >
+
+                Programmierung bezeichnet die Tätigkeit, Computerprogramme zu erstellen.<br><br><br>
+
+                Dies ist ein Teilbereich der Softwareentwicklung.<br><br><br>
+
+                Computerprogramme werden mit Hilfe einer Programmiersprache formuliert. <br><br><br>
+
+                Der Programmierer übersetzt dabei die vorgegebenen Anforderungen und Algorithmen in eine gewünschte Programmiersprache.<br><br><br 
+             </div>
+        </div>
+                                       <div class="imagine-container2">
+                                                <img class="program-picture" src="Program.jpg" >    
+        </div>
             
+
+
             <div class="Berufe" id="zwei" ></div> 
             <div class="Head-berufe">
             
@@ -173,13 +79,13 @@
 
                 <div class="bodyfooter-img">
 
-                <img class="bodyfooter-img" src="./tabelle.jpg">
+                <img class="bodyfooter-img" src="./Statistik.jpg">
 
                 </div>
 
                  <div class="Berufe-2" id="zwei">
 
-                    <li>App Developer. Gehalt: 3.300 – 6.250 € </li><br><br>
+                    <li>App Developer. rewqwqwGehalt: 3.300 – 6.250 € </li><br><br>
                         <li>Bioinformatiker. Gehalt: 3.500 – 7.000 € </li><br><br>
                             <li>Data Scientist. Gehalt: 4.000 – 5.400 € </li><br><br>
                                 <li>Fachinformatiker. Gehalt: 3.000 – 8.750 €</li><br><br>
@@ -192,36 +98,41 @@
                                                 
             <div class="Tipps-text">
                                                     
-                         <h1>Tipps die mir geholfen weiter zu kommen mit dem Programmieren </h1>
+                        <center><h1>Tipps die mir geholfen  haben das Programmieren zu lernen </h1></center>
             
             </div>
-        </div>      
-            
-            <li>fang an dir Zeiten zu stellen Beispiel=40 Min Coden 20 Min Pause</li>
-                <ul>In den 40 Minuten Programmierst du nur dann hast du 20 Minuten Zeit die du nutzen kannst, beispielweise daüfr um dir Trinken essen zu holen</ul> <br>
+        </div>
+        <br>      
+          <center> 
+            <li>fang an dir Zeiten zu stellen Beispiel=40 Min Coden 20 Min Pause</li><br>
+                <ul>In den 40 Minuten Programmierst du nur dann hast du 20 Minuten Zeit die du nutzen kannst, beispielweise daüfr um dir Trinken essen zu holen</ul> <br><br>
                                                     
                 <li>Setz dir Projekte, also fang mit einem an und beende es bevor du mit einem 2 Projekt anfängst. </li><br>
-                    <ul>Solltest du 2 Projekte gleichzeit machen so kannst du leicht durcheinander kommen deswegen ist es die Ordnung zu behalten (Siehe Punkt 3)</ul>
+                    <ul>Solltest du 2 Projekte gleichzeit machen so kannst du leicht durcheinander kommen deswegen ist es die Ordnung zu behalten (Siehe Punkt 3)</ul><br><br>
                                                     
                         <li>Halte dein Code sauber</li>
-                            <ul>Stellt dir vor der Code wäre dein Zimmer um etwas gut wieder zu finden hält man es sauber und geordnet</ul>
+                            <ul>Stellt dir vor der Code wäre dein Zimmer um etwas gut wieder zu finden hält man es sauber und geordnet</ul><br><br>
 
                                  <li> Lass dich nicht ablenken und halte dein Ziel im Auge </li>
                                      <ul>Hör leise Musik oder guck dir ein Film lasse dich aber nicht ablenken weil sonst lernst du wenig oder nichts</ul><br><br><br> 
                                                 
-               
-               </div>
+                                     </center> 
+                                    </div>
         </div>
 
     </body>
 <footer class="footer" id="vier">
 <h3>Quellen : </h3>
+
 <ul class="footer-links"></ul>
+
 <li><a class="die-links" href="https://de.wikipedia.org/wiki/Programmierung">Wikipedia Programmierung</a</li>
-<li><a class="die-links" href="https://de.statista.com/infografik/12786/durchschnittlichen-jahresbruttogehaelter-von-it-fachkraeften/">Statist Gehalte</a</li>
-<li><a class="die-links" href="https://www.mein-studium-karriere.de/jobs-stellenangebote/it-berufe/">Mein Studium Karriere Gehalte</a></li>
+
+    <li><a class="die-links" href="https://de.statista.com/infografik/12786/durchschnittlichen-jahresbruttogehaelter-von-it-fachkraeften/">Statist Gehalte</a</li>
+
+    <li><a class="die-links" href="https://www.mein-studium-karriere.de/jobs-stellenangebote/it-berufe/">Mein Studium Karriere Gehalte</a></li>
+
 </ul>
 
-</footer>
-
-</html>
+</footer> 
+</html> 
